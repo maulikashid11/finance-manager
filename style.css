@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.form{
+    padding: 20px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+input,select{
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+.edit,.delete{
+    cursor: pointer;
+}
+table{
+
+    border: 1px solid black;
+}
+th,td{
+    padding:10px;
+    border: 1px solid black;
+}
